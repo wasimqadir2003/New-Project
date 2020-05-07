@@ -6,7 +6,8 @@
 	<title>Saylani Welfare Trust</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+ 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/webfonts/all.min.css">
 	<link rel="stylesheet" type="text/css" href="css/webfonts/fontawesome.min.css">
 </head>
@@ -16,11 +17,11 @@
 
 			<div class="header-top sm-text-center">
 
-				<div class="container-fluid">
+				<div class="container">
 
 					<div class="row">
 
-						<div class="col-md-3 logo">
+						<div class="col-md-3 col-sm-12 logo">
 							<ul>
 								<li>
 									<a href="#" target="_blank">
@@ -50,16 +51,16 @@
 							</ul>
 						</div>
 
-						<div class="col-md-6 logo1">
+						<div class="col-md-6 col-sm-12 logo1">
 
 							<span>Millions of people's life has changed, millions more awaiting your donation</span>
 							
 						</div>
 
-						<div class="col-md-3">
+						<div class="col-md-3 col-md-3 col-sm-12 logo3">
 							<ul class="list-inline pull-right">
 								<li class="mt-sm-10 mb-sm-10">
-									<a href="#" class="btn bg-light btn-sm">UK Donor</a>
+									<a href="#" class="btn btn-sx bg-light btn-sm">UK Donor</a>
 									<a href="#" class="btn bg-light btn-sm">Donate Now</a>
 									<a href="#" class="btn bg-light btn-sm">SMIT Result</a>
 
@@ -72,45 +73,57 @@
 				</div>
 			</div>
 
-				<div class="header-nav">
+<section>
 
-					<div class="container-fluid">
+	<div class="container">
 
-						<nav class="navbar navbar-expand-lg navbar-light">
+		<nav class="navbar navbar-expand-lg navbar-light">
 
-							<a class="navbar-brand" href="#"><img src="images/saylani-logo.png" width="192px" height="53px"></a>
+			<a class="navbar-brand" href="#"><img src="images/saylani-logo.png"></a>
 
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa fa-bars text-black" aria-hidden="true"></i>
+			</button>
+				  
 
-							  <ul class="navbar-nav ml-auto">
-							    <li class="nav-item">
-							     <button> <a href="#">HOME</a></button>
-							    </li>
-							    <li class="nav-item">
-							      <button><a href="#">About</a></button>
-							    </li>
-							    <li class="nav-item">
-							     <button> <a href="#">Saylani Services</a></button>
-							    </li>
-							    <li class="nav-item">
-							     <button> <a href="#">Future Projects</a></button>
-							    </li>
-							    <li class="nav-item">
-							     <button> <a href="#">Media</a></button>
+			<div class=" navbar-collapse collapse" id="navbarNav">
 
-							    <li class="nav-item">
-							     <button> <a href="#">News</a></button>
-							    </li>
+				<ul class="navbar-nav ml-auto pull-left">
+				    
+				    <li class="active nav-item">
+				      <a class="nav-link text-black" href="#">HOME</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class=" nav-link text-black" href="#">About</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link -black" href="#">Saylani Services</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link text-black" href="#">Future Projects</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link text-black" href="#">Media</a>
+				    </li>
 
-							    <li class="nav-item" >
-							     <button> <a  href="#">Donation</a></button>
-							    </li>
+				    <li class="nav-item">
+				      <a class="nav-link text-black" href="#">News</a>
+				    </li>
 
-							        </ul>
-							</div>
-							  
-							</nav>
-			</div>
-		</header>
+				    <li class="nav-item">
+				      <a class="nav-link text-black" href="#">Donation</a>
+				    </li>
+
+				    </ul>
+				</div>
+				  
+			</nav>
+
+		</div>
+
+	</section>
+
+</header>
 
 </section>
 
@@ -120,11 +133,10 @@
 
 <section>
 
-	<div class="container">
 
-		<img src="images/saylanibanner.jpg">
+		<img src="images/saylanibanner.jpg" alt="banner" class="responsive img-fluid">
 
-	</div>
+	<
 
 		<div class="container news">
 
@@ -205,9 +217,9 @@
 
 <section>
 
-	<div class="picture1">
+	<div>
 
-		<img src="images/Animation.jpg">
+		<img src="images/Animation.jpg" alt="Animation" class="responsive img-fluid">
 
 	</div>
 
@@ -446,9 +458,9 @@
 
 		
 
-			<div class="pic picture1 ">
+			<div class="pic ">
 				
-				<img src="images/gallery.jpg">
+				<img src="images/gallery.jpg" alt="gallery" class="responsive img-fluid">
 
 
 			</div>
@@ -468,7 +480,7 @@
 
 		<div class="container">
 
-			<div class="row">
+			<div class="row last1">
 
 				<div class="col-md-4 col-sm-6">
 					
@@ -549,20 +561,11 @@
 
 	<section class="bottom">
 
-		<div class="container">
-
-			<div class="row">
-
-				<div class="col-md-6">
-
+		<div class="container text-left">
 					<p> Copyright © 2020 Saylani Welfare </p>
-					
 				</div>
-				
 			</div>
-			
 		</div>
-		
 	</section>
 </footer>
 </body>
